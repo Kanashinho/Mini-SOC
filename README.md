@@ -4,7 +4,7 @@ Este repositório documenta a criação de forma isolada de um Mini-SOC.
 
 **Todos os registros nesse repositório foram adquiridos em ambiente isolado. Nenhuma técnica foi aplicada contra alvos reais ou externos.**
 
-![Arquitetura do Lab](assets/arquitetura.drawio.png)
+![Arquitetura do Lab](docs/arquitetura/arquitetura.drawio.png)
 
 | Máquina | Sistema Operacional | IP (Interno) | Função |
 |---|---|---|---|

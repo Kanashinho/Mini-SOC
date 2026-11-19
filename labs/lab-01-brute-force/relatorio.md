@@ -15,8 +15,8 @@ Início da Atividade Maliciosa: 15:41:48.
 Às 15:42:04 o ataque terminou.
 
 ## Evidências:
-![Evidência de Alertas Wazuh - Brute Force](Evidencias/alertas-wazuh-brute_force-1.png)
-![Evidência do Ataque pelo Terminal](Evidencias/ataque-brute_force-1.png)
+![Evidência de Alertas Wazuh - Brute Force](evidencias/alertas-wazuh-brute_force-1.png)
+![Evidência do Ataque pelo Terminal](evidencias/ataque-brute_force-1.png)
 
 ## Mapeamento MITRE ATT&CK: 
 A tática usada foi credential access. cód: TA0006

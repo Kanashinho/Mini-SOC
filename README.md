@@ -19,4 +19,4 @@ Wazuh, Ubuntu, Oracle VirtualBox.
 O agente Wazuh foi instalado na VM Ubuntu Server (Alvo). Foi validado no arquivo `/var/ossec/etc/ossec.conf` do agente que a coleta do log de autenticação (`/var/log/auth.log`) e do syslog estão ativas para garantir a detecção de eventos dos serviços do sistema.
 
 ## Relatórios de Incidente (Simulações Controladas)
-* [Relatório de Incidente 01 — Brute Force SSH com Comprometimento de Conta (MITRE ATT&CK T1110)](labs/lab-011-brute-force/relatorio.md)
+* [Relatório de Incidente 01 — Brute Force SSH com Comprometimento de Conta (MITRE ATT&CK T1110)](labs/lab-01-brute-force/relatorio.md)

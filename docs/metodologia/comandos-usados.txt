@@ -1,0 +1,32 @@
+COMANDOS USADOS NA BRUTE SSH
+
+Objetivo: Atacar o serviço SSH do seu Ubuntu Server
+
+comandos: which hydra
+
+Explicação das Partes
+
+which: Comando do sistema usado para procurar nos diretórios definidos na variável de 
+ambiente PATH onde um determinado programa está instalado.
+
+hydra: O nome do programa cuja localização você quer encontrar.
+
+OBS: Crie um arquivo(wordlist) senhas-invasao com senhas para o teste de invasao.
+
+comandos: hydra -l vboxuser -P senhas-invasao.txt ssh://172.20.10.10 -t 4 -V
+
+hydra: Inicia a ferramenta.
+
+-l ubuntu: Define o nome de usuário fixo que será testado (ubuntu).
+
+-P senhas.txt: Usa o arquivo senhas.txt como a lista de senhas (wordlist) a serem testadas.
+
+ssh://172.20.10.10: Indica o protocolo de conexão (ssh) e o endereço IP do alvo (172.20.10.10).
+
+-t 4: Executa 4 tentativas de login em paralelo (multithreading) para acelerar o processo.
+
+-V: Ativa o modo verboso (verbose), fazendo o Hydra exibir na tela cada tentativa de 
+login (usuário e senha testados) em tempo real.
+
+
+
